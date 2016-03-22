@@ -13,11 +13,13 @@ Initialize with
     
 OR for multiple instances:
 
-    <script type='text/javascript'>
-    	$(document).ready(function() {	
-    			$('.slider, .slider2').each(slideshow());
-    	});
-    </script>
+<script type='text/javascript'>
+	$(document).ready(function() {	
+			$('.slider, .slider2').each(function() {
+				$(this).slideshow();
+			});
+	});
+</script>	
 
 HTML
 
